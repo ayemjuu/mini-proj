@@ -1,0 +1,158 @@
+/* .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .addButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .deleteButton {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #cc0000;
+  }
+   */
+
+
+
+
+   .screen {
+ 
+    height: 100vh;
+    width: 100%;
+  }
+   
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   
+     
+    }
+   
+    .inputContainer {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+   
+    .input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+   
+    .addButton {
+      padding: 10px 20px;
+      border: none;
+      background-color: #0070f3;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+   
+    .addButton:hover {
+      background-color: #005bb5;
+    }
+   
+    .list {
+      list-style: none;
+      padding: 0;
+    }
+   
+    .listItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+   
+    .btnContainer {
+      /* background-color:#005bb5   */
+      display: flex;
+      column-gap: 10px;
+    }
+   
+    .deleteButton {
+      padding: 5px 10px;
+      border: none;
+      background-color: #ff0000;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+   
+    .deleteButton:hover {
+      background-color: #cc0000;
+    }
+   
+   
+    .date {
+      font-size: 60px;
+      font-family:'Courier New', Courier, monospace;
+      color: #cc0000;
+      font-weight: bolder;
+      text-align: center;
+    }
